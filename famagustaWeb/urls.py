@@ -4,7 +4,8 @@ from . import views
 
 
 urlpatterns = [
-    path('index', views.index, name="home" ),
+    path('', views.index, name="home" ),
+    path('admin/', admin.site.urls),
     path('map', views.maps, name="maps"),
     path('contact', views.contact, name="contact"),
     path('mayor', views.mayor, name="mayor"),
