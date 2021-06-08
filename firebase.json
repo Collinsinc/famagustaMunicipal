@@ -1,0 +1,10 @@
+{
+  "emulators": {
+    "hosting": {
+      "port": 443
+    },
+    "ui": {
+      "enabled": true
+    }
+  }
+}
