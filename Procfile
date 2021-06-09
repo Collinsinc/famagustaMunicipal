@@ -1,1 +1,1 @@
-web: gunicorn famagustaCity.wsgi
+web: gunicorn famagustaWeb.wsgi
