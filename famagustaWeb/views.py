@@ -11,10 +11,9 @@ def index(request):
     return render(request,"index.html")
 
 def maps(request):
-    places = Locations.objects.all()
-    placesList =list(places)
     
-    return render(request,"map.html",{'location':places})
+    
+    return render(request,"map.html")
 
 def contact(request):
     if request.method=="POST":
